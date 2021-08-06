@@ -1,24 +1,25 @@
 import { createElement } from '../../utils/createElement';
+import styles from './seacreatures.module.css';
 
 export function createSeaCreatureCard(): HTMLElement {
   return createElement('div', {
-    className: 'seaCreature-card',
+    className: styles.card,
     childElements: [
       createElement('h3', {
         innerText: 'Seaweed',
         className: 'seaCreature__name',
       }),
       createElement('img', {
-        className: 'seaCreature__image',
+        className: styles.image,
         src: 'https://acnhapi.com/v1/images/sea/1',
         alt: 'The icon of the sea creature',
       }),
       createElement('p', {
-        className: 'seaCreature__price',
+        className: styles.price,
         innerText: 'Pay ' + '600' + ' for me',
       }),
       createElement('p', {
-        className: 'seaCreature__catchphrase',
+        className: styles.catchphrase,
         innerText: 'I got some seaweed! I could not kelp myself.',
       }),
     ],
