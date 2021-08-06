@@ -1,5 +1,6 @@
 import './style.css';
 import { createElement } from './utils/createElement';
+import { createSeaCreatureCard } from './components/seacreatures/seacreatures';
 
 const mainElement = createElement('main', {
   childElements: [
@@ -9,6 +10,10 @@ const mainElement = createElement('main', {
     }),
     createElement('input', {
       placeholder: 'Find your favorite sea creature',
+    }),
+    createElement('div', {
+      className: 'characterContainer',
+      childElements: [createSeaCreatureCard()],
     }),
   ],
 });
