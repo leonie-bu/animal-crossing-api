@@ -15,7 +15,7 @@ export function createSeaCreatureCard(): HTMLElement {
       }),
       createElement('p', {
         className: 'seaCreature__price',
-        innerText: 'Pay ' + '600' + 'for me',
+        innerText: 'Pay ' + '600' + ' for me',
       }),
       createElement('p', {
         className: 'seaCreature__catchphrase',
