@@ -1,0 +1,17 @@
+.card {
+  background-color: rgb(192, 193, 235);
+  display: grid;
+  grid-auto-flow: row;
+  border-radius: 1em;
+  width: 15em;
+  color: rgb(87, 106, 107);
+  justify-items: center;
+  align-items: center;
+}
+
+.image {
+  background: rgb(87, 106, 107);
+  border-radius: 7em;
+  height: 30%;
+  align-content: center;
+}
