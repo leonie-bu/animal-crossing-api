@@ -46,3 +46,4 @@ export type SeaCreatureFromAPI = {
 export type AllSeaCreaturesFromAPI = {
   [key: string]: SeaCreatureFromAPI;
 };
+// Solange der key ein string ist, nehme ich alle values aus der SeaCreatureFromAPI
