@@ -2,6 +2,7 @@
   background-color: rgb(192, 193, 235);
   display: grid;
   grid-auto-flow: row;
+  grid-template-rows: 15% 25% 15%;
   border-radius: 1em;
   width: 15em;
   color: rgb(87, 106, 107);
@@ -10,8 +11,8 @@
 }
 
 .image {
-  background: rgb(87, 106, 107);
-  border-radius: 7em;
-  height: 30%;
+  background: lightslategrey;
+  border-radius: 10em;
+  height: 25%;
   align-content: center;
 }

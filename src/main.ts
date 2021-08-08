@@ -16,7 +16,7 @@ const seaCreatureContainer = createElement('div', {
 
 const searchBar = createElement('input', {
   className: 'searchBar',
-  placeholder: 'Find a sea creature',
+  placeholder: 'Search for a creature in the sea',
 });
 
 searchBar.oninput = () => {
