@@ -4,14 +4,15 @@
   grid-auto-flow: row;
   border-radius: 1em;
   width: 15em;
+  height: 20em;
   color: rgb(87, 106, 107);
   justify-items: center;
   align-items: center;
 }
 
 .image {
-  background: rgb(87, 106, 107);
-  border-radius: 7em;
-  height: 30%;
+  background: lightslategrey;
+  border-radius: 10em;
+  width: 50%;
   align-content: center;
 }
